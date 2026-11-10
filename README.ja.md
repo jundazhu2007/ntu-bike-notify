@@ -1,6 +1,6 @@
 <p align="center"><img src="banner.png" alt="NTU Bike Notify"></p>
 
-<p align="center"><a href="README.md">繁體中文</a> · <a href="README.en.md">English</a> · <b>日本語</b></p>
+<p align="center"><a href="README.md">繁體中文</a> · <a href="README.en.md">English</a> · <b>日本語</b> · <a href="README.ko.md">한국어</a></p>
 
 # NTU Bike Notify
 
