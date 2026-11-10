@@ -1,0 +1,67 @@
+<p align="center"><img src="icon.png" width="120" alt="NTU Bike Notify"></p>
+
+# NTU Bike Notify
+
+台大校園公共自行車（YouBike）下課提醒 App。輸入課表，下課前 N 分鐘（預設 5 分鐘）提醒你最近站點還有幾輛車；沒車就告訴你次近有車的站，並附步行距離。下一堂課在不同大樓時，也會提醒你去哪個站還車。
+
+A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Taipei). 繁中 / English / 日本語 / 한국어.
+
+## 下載 Download
+
+| 平台 | 連結 |
+|---|---|
+| **iOS**（iOS 27.2+） | [App Store](https://apps.apple.com/tw/app/id6831039286) |
+| **Android**（Android 14+） | [下載 APK](../../releases/latest)（見下方安裝說明） |
+
+> Android 版正在 Google Play 封閉測試中，上架前先提供 APK 直接安裝。
+
+## 功能
+
+- 課表：手動輸入、匯入 CSV / ICS、匯入週課表截圖（辨識在手機上完成）
+- 下課前提醒：最近站點可借車數；0 車時報次近有車站（最多往外 3 站）
+- 還車提醒：依下一堂課的大樓找最近有空柱的站
+- 台大校園站點地圖與列表（僅限校園範圍）
+- iOS Live Activity / 動態島；Android 持續通知（Android 16+ Live Updates）
+- 繁中、English、日本語、한국어
+
+## 截圖
+
+<p>
+<img src="screenshots/zh-01-schedule.png" width="190">
+<img src="screenshots/zh-02-grid.png" width="190">
+<img src="screenshots/zh-03-map.png" width="190">
+<img src="screenshots/zh-04-stations.png" width="190">
+</p>
+
+（截圖使用虛構課表。）
+
+## Android 安裝
+
+1. 到 [Releases](../../releases/latest) 下載 `NTU-Bike-Notify-1.0.apk`。
+2. 用手機開啟檔案；若系統詢問，允許「瀏覽器／檔案」安裝未知來源的應用程式。
+3. 開啟 App，允許通知，即可使用。
+
+**驗證下載**（選用）：SHA-256 在 Release 說明裡；簽署憑證 SHA-256 為
+`7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`。
+
+```
+shasum -a 256 NTU-Bike-Notify-1.0.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.0.apk
+```
+
+> 此 APK 與日後 Google Play 版的簽署金鑰不同；改裝 Play 版前需先解除安裝此版本。
+
+## 隱私
+
+- 課表與設定存在你自己的手機（iOS：iCloud；Android：本機＋Google 備份）。
+- 伺服器只保留發提醒所需的最小副本（隨機裝置編號與課表）；**不上傳位置**，距離在手機上計算；無帳號、無廣告、無追蹤。
+- 隱私權政策：[iOS](https://ntu-bike-notify.nannancat.tw/privacy) · [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
+- 支援：[iOS](https://ntu-bike-notify.nannancat.tw/support) · [Android](https://ntu-bike-notify.nannancat.tw/support/android)
+
+## 資料來源與聲明
+
+- 站點資料來自政府開放資料之公共自行車即時資訊。
+- Android 地圖資料 © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)（ODbL）。
+- 本 App 為獨立個人專案，與臺灣大學、YouBike（微笑單車）無隸屬或背書關係。
+
+本 repo 僅提供發佈檔案與說明，不包含原始碼。© 2026 All rights reserved.
