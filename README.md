@@ -10,7 +10,7 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 
 | 平台 | 連結 |
 |---|---|
-| **iOS**（iOS 27.2+） | [App Store](https://apps.apple.com/tw/app/id6831039286) |
+| **iOS**（iOS 27.2+） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
 | **Android**（Android 14+） | [下載 APK](../../releases/latest)（見下方安裝說明） |
 
 > Android 版正在 Google Play 封閉測試中，上架前先提供 APK 直接安裝。
@@ -34,6 +34,20 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 </p>
 
 （截圖使用虛構課表。）
+
+## iOS 版詳細資訊
+
+- **下載**：[App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286)（免費）
+- **系統需求**：iOS 27.2 以上（iPhone）
+- **語言**：繁體中文、English、日本語、한국어（可在「設定 → App → 語言」切換）
+- **動態島／鎖定畫面**：下課前提醒期間顯示 Live Activity（倒數與可借車數）；關閉或不支援時自動降級為一般推播
+- **資料同步**：課表、提醒分鐘數、大樓位置校正存在 App 本機，並同步到**你自己的 iCloud 私人資料庫**，換手機可還原；開發者讀不到
+- **需要的權限**
+  - 通知：下課與還車提醒（必要）
+  - 定位（選用）：只在手機上計算站點距離，不會上傳
+  - 相簿（選用）：匯入週課表截圖時由你手動選圖，辨識在手機上完成
+- **匯入課表**：CSV、ICS、週課表截圖，或手動輸入
+- **隱私**：[隱私權政策](https://ntu-bike-notify.nannancat.tw/privacy) · [支援](https://ntu-bike-notify.nannancat.tw/support)；App Store 隱私標籤申報為「裝置識別碼」與「課表副本」，僅供 App 功能使用、不追蹤
 
 ## Android 安裝
 
