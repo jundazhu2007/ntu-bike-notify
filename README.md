@@ -1,4 +1,4 @@
-<p align="center"><img src="icon.png" width="120" alt="NTU Bike Notify"></p>
+<p align="center"><img src="banner.png" alt="NTU Bike Notify"></p>
 
 # NTU Bike Notify
 
@@ -26,14 +26,24 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 
 ## 截圖
 
+**iOS**
+
 <p>
-<img src="screenshots/zh-01-schedule.png" width="190">
-<img src="screenshots/zh-02-grid.png" width="190">
-<img src="screenshots/zh-03-map.png" width="190">
-<img src="screenshots/zh-04-stations.png" width="190">
+<img src="screenshots/ios/01-schedule.png" width="220">
+<img src="screenshots/ios/02-map.png" width="220">
+<img src="screenshots/ios/03-stations.png" width="220">
 </p>
 
-（截圖使用虛構課表。）
+**Android**
+
+<p>
+<img src="screenshots/android/01-schedule.png" width="190">
+<img src="screenshots/android/02-grid.png" width="190">
+<img src="screenshots/android/03-map.png" width="190">
+<img src="screenshots/android/04-stations.png" width="190">
+</p>
+
+（截圖使用虛構課表。App 目前只支援直向。）
 
 ## iOS 版詳細資訊
 
