@@ -12,7 +12,7 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 
 | Platform | Link |
 |---|---|
-| **iOS** (iOS 27.2+) | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
+| **iOS** (iOS 18.6+) | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
 | **Android** (Android 14+) | [Download APK](../../releases/latest) (see install steps below) |
 
 > The Android version is in closed testing on Google Play. Until it is published, you can install the APK directly.
@@ -25,6 +25,8 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 - Campus station map and list (NTU campus only)
 - iOS Live Activity / Dynamic Island; Android ongoing notification (Live Updates on Android 16+)
 - Traditional Chinese, English, Japanese, Korean
+- Station coverage: NTU-named stations plus any station within 200 m (including Gongguan MRT exits); manual refresh, and auto-refresh when you return to the app
+- Maps: iOS offers Apple Maps or a built-in open-source map (OpenStreetMap, no browsing area sent out); Android uses the built-in OpenStreetMap map
 
 ## Screenshots
 
@@ -50,8 +52,8 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 ## iOS details
 
 - **Download**: [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) (free)
-- **Requirements**: iOS 27.2 or later (iPhone)
-- **Languages**: Traditional Chinese, English, Japanese, Korean (switch in Settings → App → Language)
+- **Requirements**: iOS 18.6 or later (iPhone)
+- **Languages**: Traditional Chinese, English, Japanese, Korean (switch in the app under Settings → Language, or in system settings)
 - **Dynamic Island / Lock Screen**: a Live Activity shows the countdown and available bikes during the reminder window; it falls back to a regular notification if disabled or unsupported
 - **Data sync**: your schedule, reminder time and building corrections are stored on the device and synced to **your own private iCloud database**, so they restore on a new phone; the developer cannot read them
 - **Permissions**: Notifications (required, for reminders); Location (optional, distances are computed on your phone and never uploaded); Photos (optional, only the screenshot you pick manually when importing a schedule, recognized on-device)
@@ -60,15 +62,15 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 
 ## Android installation
 
-1. Download `NTU-Bike-Notify-1.0.apk` from [Releases](../../releases/latest).
+1. Download `NTU-Bike-Notify-1.1.apk` from [Releases](../../releases/latest).
 2. Open the file on your phone; if prompted, allow installing apps from this source (browser / Files).
 3. Open the app and allow notifications.
 
 **Verify the download** (optional): the APK SHA-256 is in the release notes; the signing certificate SHA-256 is `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`.
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.0.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.0.apk
+shasum -a 256 NTU-Bike-Notify-1.1.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.1.apk
 ```
 
 > This APK uses a different signing key from the future Google Play version; uninstall it before installing the Play version.

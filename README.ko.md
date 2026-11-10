@@ -12,7 +12,7 @@
 
 | 플랫폼 | 링크 |
 |---|---|
-| **iOS** (iOS 27.2 이상) | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
+| **iOS** (iOS 18.6 이상) | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
 | **Android** (Android 14 이상) | [APK 다운로드](../../releases/latest) (아래 설치 방법 참고) |
 
 > Android 버전은 Google Play 비공개 테스트 중입니다. 정식 출시 전까지 APK를 직접 설치할 수 있습니다.
@@ -25,6 +25,8 @@
 - 대만대 캠퍼스 대여소 지도와 목록 (캠퍼스 안만 해당)
 - iOS Live Activity / 다이내믹 아일랜드, Android 지속 알림 (Android 16 이상은 Live Updates)
 - 번체 중국어, 영어, 일본어, 한국어 지원
+- 대여소 범위: 이름에 대만대가 들어간 대여소와 반경 200 m 이내 대여소(공관역 출구 포함). 수동 새로고침 지원, 앱으로 돌아오면 자동 새로고침
+- 지도: iOS는 Apple 지도 또는 내장 오픈소스 지도(OpenStreetMap, 열람 범위를 외부로 보내지 않음) 선택 가능. Android는 내장 OpenStreetMap 지도 사용
 
 ## 스크린샷
 
@@ -50,8 +52,8 @@
 ## iOS 상세 정보
 
 - **다운로드**: [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) (무료)
-- **요구 사항**: iOS 27.2 이상 (iPhone)
-- **언어**: 번체 중국어, 영어, 일본어, 한국어 (설정 → 앱 → 언어에서 변경)
+- **요구 사항**: iOS 18.6 이상 (iPhone)
+- **언어**: 번체 중국어, 영어, 일본어, 한국어 (앱 안의 설정 → 언어 또는 시스템 설정에서 변경)
 - **다이내믹 아일랜드 / 잠금 화면**: 알림 시간대에 Live Activity로 카운트다운과 대여 가능 대수를 표시합니다. 꺼져 있거나 지원되지 않으면 일반 알림으로 대체됩니다
 - **데이터 동기화**: 시간표, 알림 시간, 건물 위치 보정은 기기에 저장되고 **본인의 iCloud 개인 데이터베이스**에 동기화됩니다. 새 휴대폰에서 복원할 수 있으며 개발자는 내용을 볼 수 없습니다
 - **필요한 권한**: 알림(필수, 리마인더용) / 위치(선택, 거리는 기기에서 계산하며 전송하지 않음) / 사진(선택, 시간표를 가져올 때 직접 고른 이미지만, 기기 안에서 인식)
@@ -60,15 +62,15 @@
 
 ## Android 설치
 
-1. [Releases](../../releases/latest)에서 `NTU-Bike-Notify-1.0.apk`를 다운로드합니다.
+1. [Releases](../../releases/latest)에서 `NTU-Bike-Notify-1.1.apk`를 다운로드합니다.
 2. 휴대폰에서 파일을 열고, 안내가 나오면 해당 출처(브라우저 / 파일)의 앱 설치를 허용합니다.
 3. 앱을 열고 알림을 허용합니다.
 
 **다운로드 확인** (선택): APK의 SHA-256은 릴리스 설명에 있습니다. 서명 인증서 SHA-256은 다음과 같습니다 `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`.
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.0.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.0.apk
+shasum -a 256 NTU-Bike-Notify-1.1.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.1.apk
 ```
 
 > 이 APK는 이후 출시될 Google Play 버전과 서명 키가 다릅니다. Play 버전을 설치하기 전에 이 버전을 먼저 삭제하세요.

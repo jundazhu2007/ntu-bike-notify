@@ -12,7 +12,7 @@
 
 | プラットフォーム | リンク |
 |---|---|
-| **iOS**（iOS 27.2 以上） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
+| **iOS**（iOS 18.6 以上） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
 | **Android**（Android 14 以上） | [APK をダウンロード](../../releases/latest)（下のインストール手順を参照） |
 
 > Android 版は Google Play でクローズドテスト中です。公開までの間、APK を直接インストールできます。
@@ -25,6 +25,8 @@
 - 台大キャンパスのステーション地図と一覧（キャンパス内のみ）
 - iOS の Live Activity / ダイナミックアイランド、Android の継続通知（Android 16 以上は Live Updates）
 - 繁体字中国語・英語・日本語・韓国語に対応
+- 対象ステーション：台大の名前が付くステーションと、その周囲 200 m 以内のステーション（公館駅の出口を含む）。手動更新に対応し、アプリに戻ると自動更新
+- 地図：iOS は Apple マップまたは内蔵のオープンソース地図（OpenStreetMap、閲覧範囲を外部に送信しません）を選べます。Android は内蔵の OpenStreetMap 地図を使用
 
 ## スクリーンショット
 
@@ -50,8 +52,8 @@
 ## iOS 版の詳細
 
 - **ダウンロード**：[App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286)（無料）
-- **動作環境**：iOS 27.2 以上（iPhone）
-- **言語**：繁体字中国語、英語、日本語、韓国語（「設定 → アプリ → 言語」で切り替え）
+- **動作環境**：iOS 18.6 以上（iPhone）
+- **言語**：繁体字中国語、英語、日本語、韓国語（アプリ内の「設定 → 言語」またはシステム設定で切り替え）
 - **ダイナミックアイランド／ロック画面**：通知の時間帯に Live Activity でカウントダウンと貸出可能台数を表示。無効または非対応の場合は通常の通知に切り替わります
 - **データ同期**：時間割・通知時間・建物位置の補正は端末に保存され、**あなた自身の iCloud プライベートデータベース**に同期されます。機種変更時に復元でき、開発者は内容を読めません
 - **必要な権限**：通知（必須・リマインダー用）／位置情報（任意・距離は端末内で計算し、送信しません）／写真（任意・時間割の取り込み時に自分で選んだ画像のみ、端末内で認識）
@@ -60,15 +62,15 @@
 
 ## Android のインストール
 
-1. [Releases](../../releases/latest) から `NTU-Bike-Notify-1.0.apk` をダウンロードします。
+1. [Releases](../../releases/latest) から `NTU-Bike-Notify-1.1.apk` をダウンロードします。
 2. スマートフォンでファイルを開き、確認が出たら（ブラウザ／ファイル）からのインストールを許可します。
 3. アプリを開き、通知を許可します。
 
 **ダウンロードの確認**（任意）：APK の SHA-256 は Release の説明に記載しています。署名証明書の SHA-256 は次のとおりです `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`.
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.0.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.0.apk
+shasum -a 256 NTU-Bike-Notify-1.1.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.1.apk
 ```
 
 > この APK は、今後公開される Google Play 版とは署名鍵が異なります。Play 版を入れる前にこの版をアンインストールしてください。

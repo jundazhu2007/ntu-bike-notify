@@ -12,7 +12,7 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 
 | 平台 | 連結 |
 |---|---|
-| **iOS**（iOS 27.2+） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
+| **iOS**（iOS 18.6+） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
 | **Android**（Android 14+） | [下載 APK](../../releases/latest)（見下方安裝說明） |
 
 > Android 版正在 Google Play 封閉測試中，上架前先提供 APK 直接安裝。
@@ -25,6 +25,8 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 - 台大校園站點地圖與列表（僅限校園範圍）
 - iOS Live Activity / 動態島；Android 持續通知（Android 16+ Live Updates）
 - 繁中、English、日本語、한국어
+- 站點範圍：臺大站＋周邊 200 公尺內的站（含公館站出口）；可手動更新，回到 App 時自動更新
+- 地圖：iOS 可選 Apple 地圖或內建開源地圖（OpenStreetMap，不送出瀏覽範圍）；Android 使用內建 OpenStreetMap 地圖
 
 ## 截圖
 
@@ -50,8 +52,8 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 ## iOS 版詳細資訊
 
 - **下載**：[App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286)（免費）
-- **系統需求**：iOS 27.2 以上（iPhone）
-- **語言**：繁體中文、English、日本語、한국어（可在「設定 → App → 語言」切換）
+- **系統需求**：iOS 18.6 以上（iPhone）
+- **語言**：繁體中文、English、日本語、한국어（可在 App 內「設定 → 語言」或系統設定切換）
 - **動態島／鎖定畫面**：下課前提醒期間顯示 Live Activity（倒數與可借車數）；關閉或不支援時自動降級為一般推播
 - **資料同步**：課表、提醒分鐘數、大樓位置校正存在 App 本機，並同步到**你自己的 iCloud 私人資料庫**，換手機可還原；開發者讀不到
 - **需要的權限**
@@ -63,7 +65,7 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 
 ## Android 安裝
 
-1. 到 [Releases](../../releases/latest) 下載 `NTU-Bike-Notify-1.0.apk`。
+1. 到 [Releases](../../releases/latest) 下載 `NTU-Bike-Notify-1.1.apk`。
 2. 用手機開啟檔案；若系統詢問，允許「瀏覽器／檔案」安裝未知來源的應用程式。
 3. 開啟 App，允許通知，即可使用。
 
@@ -71,8 +73,8 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`。
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.0.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.0.apk
+shasum -a 256 NTU-Bike-Notify-1.1.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.1.apk
 ```
 
 > 此 APK 與日後 Google Play 版的簽署金鑰不同；改裝 Play 版前需先解除安裝此版本。
