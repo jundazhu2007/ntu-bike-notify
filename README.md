@@ -1,5 +1,7 @@
 <p align="center"><img src="banner.png" alt="NTU Bike Notify"></p>
 
+<p align="center"><b>繁體中文</b> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></p>
+
 # NTU Bike Notify
 
 台大校園公共自行車（YouBike）下課提醒 App。輸入課表，下課前 N 分鐘（預設 5 分鐘）提醒你最近站點還有幾輛車；沒車就告訴你次近有車的站，並附步行距離。下一堂課在不同大樓時，也會提醒你去哪個站還車。
