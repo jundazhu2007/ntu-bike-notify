@@ -35,7 +35,8 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 <p>
 <img src="screenshots/ios/01-schedule.png" width="220">
 <img src="screenshots/ios/02-map.png" width="220">
-<img src="screenshots/ios/03-stations.png" width="220">
+<img src="screenshots/ios/03-map-osm.png" width="220">
+<img src="screenshots/ios/04-stations.png" width="220">
 </p>
 
 **Android**
