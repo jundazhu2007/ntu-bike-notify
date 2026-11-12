@@ -1,4 +1,4 @@
-<p align="center"><img src="banner.png" alt="NTU Bike Notify" width="640"></p>
+<p align="center"><img src="banner.jpg" alt="NTU Bike Notify" width="640"></p>
 
 <p align="center"><b>繁體中文</b> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a></p>
 
@@ -35,16 +35,16 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 <tr><td align="center"><b>iPhone</b></td><td align="center"><b>Android</b></td></tr>
 <tr>
 <td>
-<img src="screenshots/ios/01-schedule.png" width="100">
-<img src="screenshots/ios/02-map.png" width="100">
-<img src="screenshots/ios/03-osm-map.png" width="100">
-<img src="screenshots/ios/04-stations.png" width="100">
+<img src="img/ios-01-schedule.jpg" width="100">
+<img src="img/ios-02-map.jpg" width="100">
+<img src="img/ios-03-osm-map.jpg" width="100">
+<img src="img/ios-04-stations.jpg" width="100">
 </td>
 <td>
-<img src="screenshots/android/01-schedule.png" width="100">
-<img src="screenshots/android/02-grid.png" width="100">
-<img src="screenshots/android/03-map.png" width="100">
-<img src="screenshots/android/04-stations.png" width="100">
+<img src="img/and-01-schedule.jpg" width="100">
+<img src="img/and-02-grid.jpg" width="100">
+<img src="img/and-03-map.jpg" width="100">
+<img src="img/and-04-stations.jpg" width="100">
 </td>
 </tr>
 </table>
@@ -53,10 +53,8 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 <summary>iPad 與 Android 平板（橫向）</summary>
 
 <p>
-<img src="screenshots/ipad/01-schedule.png" width="400">
-<img src="screenshots/ipad/03-osm-map.png" width="400">
-<img src="screenshots/android-tablet/04-stations.png" width="400">
-<img src="screenshots/android-tablet/03-map.png" width="400">
+<img src="img/ipad-map.jpg" width="400">
+<img src="img/tablet-stations.jpg" width="400">
 </p>
 
 </details>
