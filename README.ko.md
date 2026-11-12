@@ -28,12 +28,13 @@
 - 수업 종료 전 알림: 가장 가까운 대여소의 대여 가능 대수. 0대이면 다음으로 가까운 대여소(최대 3개 대여소 떨어진 곳까지)
 - 반납 알림: 다음 수업 건물 근처에서 빈 거치대가 있는 대여소 안내
 - 대만대 캠퍼스 대여소 지도와 목록 (캠퍼스 안만 해당)
-- iOS Live Activity / 다이내믹 아일랜드, Android 지속 알림 (Android 16 이상은 Live Updates)
+- iOS/iPadOS Live Activity / 다이내믹 아일랜드, Android 지속 알림 (Android 16 이상은 Live Updates)
 - 번체 중국어, 영어, 일본어, 한국어 지원
 - 대여소 범위: 이름에 대만대가 들어간 대여소와 반경 200 m 이내 대여소(공관역 출구 포함). 수동 새로고침 지원, 앱으로 돌아오면 자동 새로고침
-- 지도: iOS는 Apple 지도 또는 내장 오픈소스 지도(OpenStreetMap, 열람 범위를 외부로 보내지 않음) 선택 가능. Android는 내장 OpenStreetMap 지도 사용
+- 지도: iOS/iPadOS는 Apple 지도 또는 내장 오픈소스 지도(OpenStreetMap, 열람 범위를 외부로 보내지 않음) 선택 가능. Android는 내장 OpenStreetMap 지도 사용
 - 웹 버전 실시간 지도: 설치 없이 컴퓨터에서 대만대 캠퍼스(주변 200 m 포함) 정류소의 대여 가능 대수와 빈 거치대 확인
-- 1.2 새 기능: Siri/단축어("지금 어디에 자전거가 있어?", "다음 수업은?"; 번체 중국어 Siri는 iOS 27.3 이상 필요), 홈 화면·잠금 화면 위젯, Apple Watch, iMessage로 대여소 현황 카드 보내기, iPad 및 가로 화면. Android는 태블릿 화면, 홈 화면 위젯, 런처 바로가기, 대여소 공유
+- iOS/iPadOS 1.2: Siri/단축어("지금 어디에 자전거가 있어?", "다음 수업은?"; 번체 중국어 Siri는 iOS 27.3 이상 필요), 홈 화면·잠금 화면 위젯, Apple Watch, iMessage로 대여소 현황 카드 보내기, iPad 및 가로 화면
+- Android 1.2: 태블릿 화면, 홈 화면 위젯, 런처 바로가기, 대여소 공유
 - Android 1.3: 다크 모드(설정 → 외관), 큰 글자 크기에서도 정류소 배지가 잘리지 않도록 개선, '앱 정보'에 공식 사이트·개발자·GitHub·X 링크 추가, 개인정보 처리방침과 지원 페이지를 공식 사이트의 Android 페이지로 이전
 - iOS/iPadOS 1.3: iPad 레이아웃 수정, 동적 글꼴 크기와 손쉬운 사용 개선, 동작 줄이기 지원, Siri 요청을 기록하지 않음, '정보'에 링크 아이콘 추가
 
@@ -69,7 +70,7 @@
 
 (가상의 시간표 사용. 휴대폰은 세로만, iPad와 Android 태블릿은 가로도 지원. iOS는 번체 중국어, Android는 영어 UI입니다.)
 
-## iOS 상세 정보
+## iOS/iPadOS 상세 정보
 
 - **다운로드**: [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) (무료)
 - **요구 사항**: iOS / iPadOS 18.6 이상 (iPhone·iPad)
@@ -98,10 +99,10 @@ apksigner verify --print-certs NTU-Bike-Notify-1.3.apk
 
 ## 개인정보
 
-- 시간표와 설정은 본인의 휴대폰에 저장됩니다 (iOS: iCloud, Android: 로컬 저장소 + Google 백업).
+- 시간표와 설정은 본인의 휴대폰에 저장됩니다 (iOS/iPadOS: iCloud, Android: 로컬 저장소 + Google 백업).
 - 서버는 알림 발송에 필요한 최소한의 사본(무작위 기기 ID와 시간표)만 보관합니다. **위치는 전송하지 않으며** 거리는 휴대폰에서 계산합니다. 계정, 광고, 추적이 없습니다.
-- 개인정보 처리방침: [iOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
-- 지원: [iOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntubikenotify.nannancat.tw/support/android/)
+- 개인정보 처리방침: [iOS/iPadOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
+- 지원: [iOS/iPadOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntubikenotify.nannancat.tw/support/android/)
 
 ## 데이터 출처 및 고지
 

@@ -28,12 +28,13 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 - 下課前提醒：最近站點可借車數；0 車時報次近有車站（最多往外 3 站）
 - 還車提醒：依下一堂課的大樓找最近有空柱的站
 - 台大校園站點地圖與列表（僅限校園範圍）
-- iOS Live Activity / 動態島；Android 持續通知（Android 16+ Live Updates）
+- iOS／iPadOS Live Activity / 動態島；Android 持續通知（Android 16+ Live Updates）
 - 繁中、English、日本語、한국어
 - 站點範圍：臺大站＋周邊 200 公尺內的站（含公館站出口）；可手動更新，回到 App 時自動更新
-- 地圖：iOS 可選 Apple 地圖或內建開源地圖（OpenStreetMap，不送出瀏覽範圍）；Android 使用內建 OpenStreetMap 地圖
+- 地圖：iOS／iPadOS 可選 Apple 地圖或內建開源地圖（OpenStreetMap，不送出瀏覽範圍）；Android 使用內建 OpenStreetMap 地圖
 - 網頁版即時地圖：電腦上不用安裝，直接查看臺大校園（含周邊 200 公尺）各站的可借車數與空位
-- 1.2 新增：Siri／捷徑（問「現在哪裡有車」「下一堂課」；繁體中文 Siri 需 iOS 27.3 以上）、桌面與鎖定畫面小工具、Apple Watch、iMessage 傳送站點車數、iPad 與橫向畫面；Android 平板版面、桌面小工具、桌面長按捷徑、站點分享
+- iOS／iPadOS 1.2 新增：Siri／捷徑（問「現在哪裡有車」「下一堂課」；繁體中文 Siri 需 iOS 27.3 以上）、桌面與鎖定畫面小工具、Apple Watch、iMessage 傳送站點車數、iPad 與橫向畫面
+- Android 1.2 新增：平板版面、桌面小工具、桌面長按捷徑、站點分享
 - Android 1.3 新增：深色模式（設定 → 外觀）、大字體時站點徽章不再被切掉、「關於」加上官網／開發者／GitHub／X 連結、隱私與支援改到官網的 Android 頁
 - iOS／iPadOS 1.3 新增：iPad 版面修正、大字體與輔助使用改善、支援減少動態效果、Siri 不再記錄請求、「關於」加上連結圖示
 
@@ -69,7 +70,7 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 
 （截圖使用虛構課表。手機版目前只支援直向；iPad 與 Android 平板支援橫向。）
 
-## iOS 版詳細資訊
+## iOS／iPadOS 版詳細資訊
 
 - **下載**：[App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286)（免費）
 - **系統需求**：iOS／iPadOS 18.6 以上（iPhone、iPad）
@@ -102,10 +103,10 @@ apksigner verify --print-certs NTU-Bike-Notify-1.3.apk
 
 ## 隱私
 
-- 課表與設定存在你自己的手機（iOS：iCloud；Android：本機＋Google 備份）。
+- 課表與設定存在你自己的手機（iOS／iPadOS：iCloud；Android：本機＋Google 備份）。
 - 伺服器只保留發提醒所需的最小副本（隨機裝置編號與課表）；**不上傳位置**，距離在手機上計算；無帳號、無廣告、無追蹤。
-- 隱私權政策：[iOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
-- 支援：[iOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntubikenotify.nannancat.tw/support/android/)
+- 隱私權政策：[iOS／iPadOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
+- 支援：[iOS／iPadOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntubikenotify.nannancat.tw/support/android/)
 
 ## 資料來源與聲明
 

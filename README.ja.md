@@ -28,12 +28,13 @@
 - 授業終了前の通知：最寄りステーションの貸出可能台数。0台なら次に近い空きステーション（最大3駅先まで）
 - 返却通知：次の授業の建物に近い、空きスロットのあるステーションを案内
 - 台大キャンパスのステーション地図と一覧（キャンパス内のみ）
-- iOS の Live Activity / ダイナミックアイランド、Android の継続通知（Android 16 以上は Live Updates）
+- iOS／iPadOS の Live Activity / ダイナミックアイランド、Android の継続通知（Android 16 以上は Live Updates）
 - 繁体字中国語・英語・日本語・韓国語に対応
 - 対象ステーション：台大の名前が付くステーションと、その周囲 200 m 以内のステーション（公館駅の出口を含む）。手動更新に対応し、アプリに戻ると自動更新
-- 地図：iOS は Apple マップまたは内蔵のオープンソース地図（OpenStreetMap、閲覧範囲を外部に送信しません）を選べます。Android は内蔵の OpenStreetMap 地図を使用
+- 地図：iOS／iPadOS は Apple マップまたは内蔵のオープンソース地図（OpenStreetMap、閲覧範囲を外部に送信しません）を選べます。Android は内蔵の OpenStreetMap 地図を使用
 - Web 版リアルタイム地図：インストール不要で、パソコンから台大キャンパス（周辺 200 m を含む）のステーションの台数と空きを確認
-- 1.2 の新機能：Siri／ショートカット（「今どこに自転車がある？」「次の授業は？」。繁体字中国語の Siri は iOS 27.3 以上が必要）、ホーム画面・ロック画面のウィジェット、Apple Watch、iMessage でステーションの台数カードを送信、iPad と横向き表示。Android はタブレット表示、ホーム画面ウィジェット、ランチャーのショートカット、ステーション共有
+- iOS／iPadOS 1.2：Siri／ショートカット（「今どこに自転車がある？」「次の授業は？」。繁体字中国語の Siri は iOS 27.3 以上が必要）、ホーム画面・ロック画面のウィジェット、Apple Watch、iMessage でステーションの台数カードを送信、iPad と横向き表示
+- Android 1.2：タブレット表示、ホーム画面ウィジェット、ランチャーのショートカット、ステーション共有
 - Android 1.3：ダークモード（設定 → 外観）、大きい文字サイズでもステーションのバッジが切れないよう改善、「アプリについて」に公式サイト／開発者／GitHub／X へのリンクを追加、プライバシーとサポートを公式サイトの Android ページに移行
 - iOS／iPadOS 1.3：iPad のレイアウト修正、ダイナミックタイプとアクセシビリティの改善、視差効果・動きを減らす設定に対応、Siri のリクエストを記録しない、「アプリについて」にリンクアイコンを追加
 
@@ -69,7 +70,7 @@
 
 （架空の時間割を使用。スマートフォンは縦向きのみ、iPad と Android タブレットは横向きにも対応。iOS は繁体字中国語、Android は英語の UI です。）
 
-## iOS 版の詳細
+## iOS／iPadOS 版の詳細
 
 - **ダウンロード**：[App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286)（無料）
 - **動作環境**：iOS／iPadOS 18.6 以上（iPhone、iPad）
@@ -100,8 +101,8 @@ apksigner verify --print-certs NTU-Bike-Notify-1.3.apk
 
 - 時間割と設定はあなたの端末内に保存されます（iOS：iCloud、Android：端末内＋Google バックアップ）。
 - サーバーが保持するのは、通知の送信に必要な最小限のコピー（ランダムな端末 ID と時間割）のみです。**位置情報は送信しません**。距離は端末内で計算します。アカウント登録・広告・トラッキングはありません。
-- プライバシーポリシー：[iOS](https://ntubikenotify.nannancat.tw/privacy/) ・ [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
-- サポート：[iOS](https://ntubikenotify.nannancat.tw/support/) ・ [Android](https://ntubikenotify.nannancat.tw/support/android/)
+- プライバシーポリシー：[iOS／iPadOS](https://ntubikenotify.nannancat.tw/privacy/) ・ [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
+- サポート：[iOS／iPadOS](https://ntubikenotify.nannancat.tw/support/) ・ [Android](https://ntubikenotify.nannancat.tw/support/android/)
 
 ## データ出典と注意事項
 

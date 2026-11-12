@@ -28,12 +28,13 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 - Pre-dismissal reminder: bikes available at the nearest station; if none, the next nearest station with bikes (up to 3 stations away)
 - Return reminder: finds the nearest station with free docks near your next class building
 - Campus station map and list (NTU campus only)
-- iOS Live Activity / Dynamic Island; Android ongoing notification (Live Updates on Android 16+)
+- iOS / iPadOS Live Activity / Dynamic Island; Android ongoing notification (Live Updates on Android 16+)
 - Traditional Chinese, English, Japanese, Korean
 - Station coverage: NTU-named stations plus any station within 200 m (including Gongguan MRT exits); manual refresh, and auto-refresh when you return to the app
-- Maps: iOS offers Apple Maps or a built-in open-source map (OpenStreetMap, no browsing area sent out); Android uses the built-in OpenStreetMap map
+- Maps: iOS / iPadOS offers Apple Maps or a built-in open-source map (OpenStreetMap, no browsing area sent out); Android uses the built-in OpenStreetMap map
 - Web live map: no install needed, check bikes and free docks at NTU campus stations (plus those within 200 m) from a computer
-- New in 1.2: Siri / Shortcuts (ask "where are bikes now" or "next class"; Siri in Traditional Chinese needs iOS 27.3 or later), home-screen and Lock Screen widgets, Apple Watch, iMessage station cards, iPad and landscape layouts; on Android, tablet layouts, a home-screen widget, launcher shortcuts and station sharing
+- iOS / iPadOS 1.2: Siri / Shortcuts (ask "where are bikes now" or "next class"; Siri in Traditional Chinese needs iOS 27.3 or later), home-screen and Lock Screen widgets, Apple Watch, iMessage station cards, iPad and landscape layouts
+- Android 1.2: tablet layouts, a home-screen widget, launcher shortcuts and station sharing
 - Android 1.3: dark mode (Settings → Appearance), station badges no longer clipped at large text sizes, About links to the website / developer / GitHub / X, privacy and support moved to the website's Android pages
 - iOS / iPadOS 1.3: iPad layout fixes, Dynamic Type and accessibility improvements, Reduce Motion support, Siri requests are no longer logged, About icon links
 
@@ -67,9 +68,9 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 
 </details>
 
-(Fictional schedule. Phones are portrait only; iPad and Android tablets also support landscape. iOS screenshots show the Traditional Chinese UI.)
+(Fictional schedule. Phones are portrait only; iPad and Android tablets also support landscape. iOS / iPadOS screenshots show the Traditional Chinese UI.)
 
-## iOS details
+## iOS / iPadOS details
 
 - **Download**: [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) (free)
 - **Requirements**: iOS / iPadOS 18.6 or later (iPhone and iPad)
@@ -98,10 +99,10 @@ apksigner verify --print-certs NTU-Bike-Notify-1.3.apk
 
 ## Privacy
 
-- Your schedule and settings stay on your phone (iOS: iCloud; Android: local storage plus Google backup).
+- Your schedule and settings stay on your phone (iOS / iPadOS: iCloud; Android: local storage plus Google backup).
 - The server keeps only the minimum copy needed to send reminders (a random device ID and your schedule). **Location is never uploaded**; distances are computed on your phone. No accounts, ads or tracking.
-- Privacy policy: [iOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
-- Support: [iOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntubikenotify.nannancat.tw/support/android/)
+- Privacy policy: [iOS / iPadOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
+- Support: [iOS / iPadOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntubikenotify.nannancat.tw/support/android/)
 
 ## Data sources and notices
 
