@@ -27,19 +27,27 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 - Traditional Chinese, English, Japanese, Korean
 - Station coverage: NTU-named stations plus any station within 200 m (including Gongguan MRT exits); manual refresh, and auto-refresh when you return to the app
 - Maps: iOS offers Apple Maps or a built-in open-source map (OpenStreetMap, no browsing area sent out); Android uses the built-in OpenStreetMap map
+- New in 1.2: Siri / Shortcuts (ask "where are bikes now" or "next class"; Siri in Traditional Chinese needs iOS 27.3 or later), home-screen and Lock Screen widgets, Apple Watch, iMessage station cards, iPad and landscape layouts; on Android, tablet layouts, a home-screen widget, launcher shortcuts and station sharing
 
 ## Screenshots
 
-**iOS** (Traditional Chinese UI)
+**iPhone**
 
 <p>
-<img src="screenshots/ios/01-schedule.png" width="220">
-<img src="screenshots/ios/02-map.png" width="220">
-<img src="screenshots/ios/03-map-osm.png" width="220">
-<img src="screenshots/ios/04-stations.png" width="220">
+<img src="screenshots/ios/01-schedule.png" width="190">
+<img src="screenshots/ios/02-map.png" width="190">
+<img src="screenshots/ios/03-osm-map.png" width="190">
+<img src="screenshots/ios/04-stations.png" width="190">
 </p>
 
-**Android** (English UI)
+**iPad (landscape)**
+
+<p>
+<img src="screenshots/ipad/01-schedule.png" width="380">
+<img src="screenshots/ipad/03-osm-map.png" width="380">
+</p>
+
+**Android phone**
 
 <p>
 <img src="screenshots/android-en/01-schedule.png" width="190">
@@ -48,7 +56,14 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 <img src="screenshots/android-en/04-stations.png" width="190">
 </p>
 
-(Screenshots use a fictional schedule. The app currently supports portrait orientation only.)
+**Android tablet (landscape)**
+
+<p>
+<img src="screenshots/android-tablet-en/04-stations.png" width="380">
+<img src="screenshots/android-tablet-en/03-map.png" width="380">
+</p>
+
+(Screenshots use a fictional schedule. Phones support portrait only; iPad and Android tablets support landscape. The iOS screenshots show the Traditional Chinese UI.)
 
 ## iOS details
 
@@ -59,19 +74,20 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 - **Data sync**: your schedule, reminder time and building corrections are stored on the device and synced to **your own private iCloud database**, so they restore on a new phone; the developer cannot read them
 - **Permissions**: Notifications (required, for reminders); Location (optional, distances are computed on your phone and never uploaded); Photos (optional, only the screenshot you pick manually when importing a schedule, recognized on-device)
 - **Import**: CSV, ICS, weekly-schedule screenshot, or manual entry
+- **Other 1.2 features**: Siri / Shortcuts and App Intents, home-screen and Lock Screen widgets, Apple Watch app (schedule is sent from the iPhone), iMessage extension (pick a station and send a bike-count card to a friend), iPad layouts
 - **Privacy**: [Privacy policy](https://ntu-bike-notify.nannancat.tw/privacy) · [Support](https://ntu-bike-notify.nannancat.tw/support). App Store privacy labels declare "Device ID" and "Schedule copy", used only for app functionality, no tracking
 
 ## Android installation
 
-1. Download `NTU-Bike-Notify-1.1.apk` from [Releases](../../releases/latest).
+1. Download `NTU-Bike-Notify-1.2.apk` from [Releases](../../releases/latest).
 2. Open the file on your phone; if prompted, allow installing apps from this source (browser / Files).
 3. Open the app and allow notifications.
 
 **Verify the download** (optional): the APK SHA-256 is in the release notes; the signing certificate SHA-256 is `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`.
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.1.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.1.apk
+shasum -a 256 NTU-Bike-Notify-1.2.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 ```
 
 > This APK uses a different signing key from the future Google Play version; uninstall it before installing the Play version.

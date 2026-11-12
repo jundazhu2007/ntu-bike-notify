@@ -27,19 +27,27 @@
 - 繁体字中国語・英語・日本語・韓国語に対応
 - 対象ステーション：台大の名前が付くステーションと、その周囲 200 m 以内のステーション（公館駅の出口を含む）。手動更新に対応し、アプリに戻ると自動更新
 - 地図：iOS は Apple マップまたは内蔵のオープンソース地図（OpenStreetMap、閲覧範囲を外部に送信しません）を選べます。Android は内蔵の OpenStreetMap 地図を使用
+- 1.2 の新機能：Siri／ショートカット（「今どこに自転車がある？」「次の授業は？」。繁体字中国語の Siri は iOS 27.3 以上が必要）、ホーム画面・ロック画面のウィジェット、Apple Watch、iMessage でステーションの台数カードを送信、iPad と横向き表示。Android はタブレット表示、ホーム画面ウィジェット、ランチャーのショートカット、ステーション共有
 
 ## スクリーンショット
 
-**iOS**（繁体字中国語 UI）
+**iPhone**
 
 <p>
-<img src="screenshots/ios/01-schedule.png" width="220">
-<img src="screenshots/ios/02-map.png" width="220">
-<img src="screenshots/ios/03-map-osm.png" width="220">
-<img src="screenshots/ios/04-stations.png" width="220">
+<img src="screenshots/ios/01-schedule.png" width="190">
+<img src="screenshots/ios/02-map.png" width="190">
+<img src="screenshots/ios/03-osm-map.png" width="190">
+<img src="screenshots/ios/04-stations.png" width="190">
 </p>
 
-**Android**（英語 UI）
+**iPad（横向き）**
+
+<p>
+<img src="screenshots/ipad/01-schedule.png" width="380">
+<img src="screenshots/ipad/03-osm-map.png" width="380">
+</p>
+
+**Android スマートフォン**
 
 <p>
 <img src="screenshots/android-en/01-schedule.png" width="190">
@@ -48,7 +56,14 @@
 <img src="screenshots/android-en/04-stations.png" width="190">
 </p>
 
-（スクリーンショットは架空の時間割を使用しています。現在は縦向きのみ対応です。）
+**Android タブレット（横向き）**
+
+<p>
+<img src="screenshots/android-tablet-en/04-stations.png" width="380">
+<img src="screenshots/android-tablet-en/03-map.png" width="380">
+</p>
+
+（スクリーンショットは架空の時間割を使用しています。スマートフォンは縦向きのみ、iPad と Android タブレットは横向きにも対応します。iOS は繁体字中国語の UI、Android は英語の UI です。）
 
 ## iOS 版の詳細
 
@@ -59,19 +74,20 @@
 - **データ同期**：時間割・通知時間・建物位置の補正は端末に保存され、**あなた自身の iCloud プライベートデータベース**に同期されます。機種変更時に復元でき、開発者は内容を読めません
 - **必要な権限**：通知（必須・リマインダー用）／位置情報（任意・距離は端末内で計算し、送信しません）／写真（任意・時間割の取り込み時に自分で選んだ画像のみ、端末内で認識）
 - **取り込み**：CSV、ICS、週間時間割のスクリーンショット、手入力
+- **1.2 のその他の機能**：Siri／ショートカットと App Intents、ホーム画面・ロック画面のウィジェット、Apple Watch アプリ（時間割は iPhone から送信）、iMessage 拡張（ステーションを選んで台数カードを友だちに送信）、iPad 対応
 - **プライバシー**：[プライバシーポリシー](https://ntu-bike-notify.nannancat.tw/privacy) ・ [サポート](https://ntu-bike-notify.nannancat.tw/support)。App Store のプライバシー表示では「デバイス ID」と「時間割のコピー」を申告しており、用途はアプリの機能のみで、トラッキングは行いません
 
 ## Android のインストール
 
-1. [Releases](../../releases/latest) から `NTU-Bike-Notify-1.1.apk` をダウンロードします。
+1. [Releases](../../releases/latest) から `NTU-Bike-Notify-1.2.apk` をダウンロードします。
 2. スマートフォンでファイルを開き、確認が出たら（ブラウザ／ファイル）からのインストールを許可します。
 3. アプリを開き、通知を許可します。
 
 **ダウンロードの確認**（任意）：APK の SHA-256 は Release の説明に記載しています。署名証明書の SHA-256 は次のとおりです `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`.
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.1.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.1.apk
+shasum -a 256 NTU-Bike-Notify-1.2.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 ```
 
 > この APK は、今後公開される Google Play 版とは署名鍵が異なります。Play 版を入れる前にこの版をアンインストールしてください。

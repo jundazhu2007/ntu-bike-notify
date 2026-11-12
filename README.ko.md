@@ -27,19 +27,27 @@
 - 번체 중국어, 영어, 일본어, 한국어 지원
 - 대여소 범위: 이름에 대만대가 들어간 대여소와 반경 200 m 이내 대여소(공관역 출구 포함). 수동 새로고침 지원, 앱으로 돌아오면 자동 새로고침
 - 지도: iOS는 Apple 지도 또는 내장 오픈소스 지도(OpenStreetMap, 열람 범위를 외부로 보내지 않음) 선택 가능. Android는 내장 OpenStreetMap 지도 사용
+- 1.2 새 기능: Siri/단축어("지금 어디에 자전거가 있어?", "다음 수업은?"; 번체 중국어 Siri는 iOS 27.3 이상 필요), 홈 화면·잠금 화면 위젯, Apple Watch, iMessage로 대여소 현황 카드 보내기, iPad 및 가로 화면. Android는 태블릿 화면, 홈 화면 위젯, 런처 바로가기, 대여소 공유
 
 ## 스크린샷
 
-**iOS** (번체 중국어 UI)
+**iPhone**
 
 <p>
-<img src="screenshots/ios/01-schedule.png" width="220">
-<img src="screenshots/ios/02-map.png" width="220">
-<img src="screenshots/ios/03-map-osm.png" width="220">
-<img src="screenshots/ios/04-stations.png" width="220">
+<img src="screenshots/ios/01-schedule.png" width="190">
+<img src="screenshots/ios/02-map.png" width="190">
+<img src="screenshots/ios/03-osm-map.png" width="190">
+<img src="screenshots/ios/04-stations.png" width="190">
 </p>
 
-**Android** (영어 UI)
+**iPad (가로)**
+
+<p>
+<img src="screenshots/ipad/01-schedule.png" width="380">
+<img src="screenshots/ipad/03-osm-map.png" width="380">
+</p>
+
+**Android 휴대폰**
 
 <p>
 <img src="screenshots/android-en/01-schedule.png" width="190">
@@ -48,7 +56,14 @@
 <img src="screenshots/android-en/04-stations.png" width="190">
 </p>
 
-(스크린샷은 가상의 시간표를 사용했습니다. 앱은 현재 세로 방향만 지원합니다.)
+**Android 태블릿 (가로)**
+
+<p>
+<img src="screenshots/android-tablet-en/04-stations.png" width="380">
+<img src="screenshots/android-tablet-en/03-map.png" width="380">
+</p>
+
+(스크린샷은 가상의 시간표를 사용했습니다. 휴대폰은 세로 방향만, iPad와 Android 태블릿은 가로 방향도 지원합니다. iOS는 번체 중국어 UI, Android는 영어 UI입니다.)
 
 ## iOS 상세 정보
 
@@ -59,19 +74,20 @@
 - **데이터 동기화**: 시간표, 알림 시간, 건물 위치 보정은 기기에 저장되고 **본인의 iCloud 개인 데이터베이스**에 동기화됩니다. 새 휴대폰에서 복원할 수 있으며 개발자는 내용을 볼 수 없습니다
 - **필요한 권한**: 알림(필수, 리마인더용) / 위치(선택, 거리는 기기에서 계산하며 전송하지 않음) / 사진(선택, 시간표를 가져올 때 직접 고른 이미지만, 기기 안에서 인식)
 - **가져오기**: CSV, ICS, 주간 시간표 스크린샷, 직접 입력
+- **그 밖의 1.2 기능**: Siri/단축어와 App Intents, 홈 화면·잠금 화면 위젯, Apple Watch 앱(시간표는 iPhone에서 전송), iMessage 확장(대여소를 골라 자전거 수 카드를 친구에게 전송), iPad 레이아웃
 - **개인정보**: [개인정보 처리방침](https://ntu-bike-notify.nannancat.tw/privacy) · [지원](https://ntu-bike-notify.nannancat.tw/support). App Store 개인정보 항목에는 "기기 ID"와 "시간표 사본"을 신고했으며, 앱 기능에만 사용하고 추적하지 않습니다
 
 ## Android 설치
 
-1. [Releases](../../releases/latest)에서 `NTU-Bike-Notify-1.1.apk`를 다운로드합니다.
+1. [Releases](../../releases/latest)에서 `NTU-Bike-Notify-1.2.apk`를 다운로드합니다.
 2. 휴대폰에서 파일을 열고, 안내가 나오면 해당 출처(브라우저 / 파일)의 앱 설치를 허용합니다.
 3. 앱을 열고 알림을 허용합니다.
 
 **다운로드 확인** (선택): APK의 SHA-256은 릴리스 설명에 있습니다. 서명 인증서 SHA-256은 다음과 같습니다 `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`.
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.1.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.1.apk
+shasum -a 256 NTU-Bike-Notify-1.2.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 ```
 
 > 이 APK는 이후 출시될 Google Play 버전과 서명 키가 다릅니다. Play 버전을 설치하기 전에 이 버전을 먼저 삭제하세요.

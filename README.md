@@ -27,19 +27,27 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 - 繁中、English、日本語、한국어
 - 站點範圍：臺大站＋周邊 200 公尺內的站（含公館站出口）；可手動更新，回到 App 時自動更新
 - 地圖：iOS 可選 Apple 地圖或內建開源地圖（OpenStreetMap，不送出瀏覽範圍）；Android 使用內建 OpenStreetMap 地圖
+- 1.2 新增：Siri／捷徑（問「現在哪裡有車」「下一堂課」；繁體中文 Siri 需 iOS 27.3 以上）、桌面與鎖定畫面小工具、Apple Watch、iMessage 傳送站點車數、iPad 與橫向畫面；Android 平板版面、桌面小工具、桌面長按捷徑、站點分享
 
 ## 截圖
 
-**iOS**
+**iPhone**
 
 <p>
-<img src="screenshots/ios/01-schedule.png" width="220">
-<img src="screenshots/ios/02-map.png" width="220">
-<img src="screenshots/ios/03-map-osm.png" width="220">
-<img src="screenshots/ios/04-stations.png" width="220">
+<img src="screenshots/ios/01-schedule.png" width="190">
+<img src="screenshots/ios/02-map.png" width="190">
+<img src="screenshots/ios/03-osm-map.png" width="190">
+<img src="screenshots/ios/04-stations.png" width="190">
 </p>
 
-**Android**
+**iPad（橫向）**
+
+<p>
+<img src="screenshots/ipad/01-schedule.png" width="380">
+<img src="screenshots/ipad/03-osm-map.png" width="380">
+</p>
+
+**Android 手機**
 
 <p>
 <img src="screenshots/android/01-schedule.png" width="190">
@@ -48,7 +56,14 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 <img src="screenshots/android/04-stations.png" width="190">
 </p>
 
-（截圖使用虛構課表。App 目前只支援直向。）
+**Android 平板（橫向）**
+
+<p>
+<img src="screenshots/android-tablet/04-stations.png" width="380">
+<img src="screenshots/android-tablet/03-map.png" width="380">
+</p>
+
+（截圖使用虛構課表。手機版目前只支援直向；iPad 與 Android 平板支援橫向。）
 
 ## iOS 版詳細資訊
 
@@ -62,11 +77,12 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
   - 定位（選用）：只在手機上計算站點距離，不會上傳
   - 相簿（選用）：匯入週課表截圖時由你手動選圖，辨識在手機上完成
 - **匯入課表**：CSV、ICS、週課表截圖，或手動輸入
+- **其他 1.2 功能**：Siri／捷徑與 App Intents、桌面與鎖定畫面小工具、Apple Watch App（課表由 iPhone 傳到手錶）、iMessage 擴充（選站點，把車數卡片傳給朋友）、iPad 版面
 - **隱私**：[隱私權政策](https://ntu-bike-notify.nannancat.tw/privacy) · [支援](https://ntu-bike-notify.nannancat.tw/support)；App Store 隱私標籤申報為「裝置識別碼」與「課表副本」，僅供 App 功能使用、不追蹤
 
 ## Android 安裝
 
-1. 到 [Releases](../../releases/latest) 下載 `NTU-Bike-Notify-1.1.apk`。
+1. 到 [Releases](../../releases/latest) 下載 `NTU-Bike-Notify-1.2.apk`。
 2. 用手機開啟檔案；若系統詢問，允許「瀏覽器／檔案」安裝未知來源的應用程式。
 3. 開啟 App，允許通知，即可使用。
 
@@ -74,8 +90,8 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`。
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.1.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.1.apk
+shasum -a 256 NTU-Bike-Notify-1.2.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 ```
 
 > 此 APK 與日後 Google Play 版的簽署金鑰不同；改裝 Play 版前需先解除安裝此版本。
