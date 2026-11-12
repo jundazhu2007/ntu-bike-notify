@@ -31,30 +31,30 @@
 
 ## 스크린샷
 
-<table>
-<tr><td align="center"><b>iPhone</b></td><td align="center"><b>Android</b></td></tr>
-<tr>
-<td>
-<img src="img/ios-01-schedule.jpg" width="100">
-<img src="img/ios-02-map.jpg" width="100">
-<img src="img/ios-03-osm-map.jpg" width="100">
-<img src="img/ios-04-stations.jpg" width="100">
-</td>
-<td>
-<img src="img/and-en-01-schedule.jpg" width="100">
-<img src="img/and-en-02-grid.jpg" width="100">
-<img src="img/and-en-03-map.jpg" width="100">
-<img src="img/and-en-04-stations.jpg" width="100">
-</td>
-</tr>
-</table>
+**iPhone**
+
+<p>
+<img src="img/ios-01-schedule.jpg" width="200">
+<img src="img/ios-02-map.jpg" width="200">
+<img src="img/ios-03-osm-map.jpg" width="200">
+<img src="img/ios-04-stations.jpg" width="200">
+</p>
+
+**Android**
+
+<p>
+<img src="img/and-en-01-schedule.jpg" width="200">
+<img src="img/and-en-02-grid.jpg" width="200">
+<img src="img/and-en-03-map.jpg" width="200">
+<img src="img/and-en-04-stations.jpg" width="200">
+</p>
 
 <details>
 <summary>iPad 및 Android 태블릿 (가로)</summary>
 
 <p>
-<img src="img/ipad-map.jpg" width="400">
-<img src="img/tablet-en-stations.jpg" width="400">
+<img src="img/ipad-map.jpg" width="450">
+<img src="img/tablet-en-stations.jpg" width="450">
 </p>
 
 </details>
