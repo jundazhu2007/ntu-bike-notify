@@ -14,6 +14,7 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 |---|---|
 | **iOS**（iOS 18.6+） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
 | **Android**（Android 14+） | [下載 APK](../../releases/latest)（見下方安裝說明） |
+| **網頁版**（免安裝） | [即時地圖](https://ntubikenotify.nannancat.tw/map/) · [官網](https://ntubikenotify.nannancat.tw/) |
 
 > Android 版正在 Google Play 封閉測試中，上架前先提供 APK 直接安裝。
 
@@ -27,6 +28,7 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 - 繁中、English、日本語、한국어
 - 站點範圍：臺大站＋周邊 200 公尺內的站（含公館站出口）；可手動更新，回到 App 時自動更新
 - 地圖：iOS 可選 Apple 地圖或內建開源地圖（OpenStreetMap，不送出瀏覽範圍）；Android 使用內建 OpenStreetMap 地圖
+- 網頁版即時地圖：電腦上不用安裝，直接查看臺大校園（含周邊 200 公尺）各站的可借車數與空位
 - 1.2 新增：Siri／捷徑（問「現在哪裡有車」「下一堂課」；繁體中文 Siri 需 iOS 27.3 以上）、桌面與鎖定畫面小工具、Apple Watch、iMessage 傳送站點車數、iPad 與橫向畫面；Android 平板版面、桌面小工具、桌面長按捷徑、站點分享
 
 ## 截圖
@@ -74,7 +76,7 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
   - 相簿（選用）：匯入週課表截圖時由你手動選圖，辨識在手機上完成
 - **匯入課表**：CSV、ICS、週課表截圖，或手動輸入
 - **其他 1.2 功能**：Siri／捷徑與 App Intents、桌面與鎖定畫面小工具、Apple Watch App（課表由 iPhone 傳到手錶）、iMessage 擴充（選站點，把車數卡片傳給朋友）、iPad 版面
-- **隱私**：[隱私權政策](https://ntu-bike-notify.nannancat.tw/privacy) · [支援](https://ntu-bike-notify.nannancat.tw/support)；App Store 隱私標籤申報為「裝置識別碼」與「課表副本」，僅供 App 功能使用、不追蹤
+- **隱私**：[隱私權政策](https://ntubikenotify.nannancat.tw/privacy/) · [支援](https://ntubikenotify.nannancat.tw/support/)；App Store 隱私標籤申報為「裝置識別碼」與「課表副本」，僅供 App 功能使用、不追蹤
 
 ## Android 安裝
 
@@ -96,8 +98,8 @@ apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 
 - 課表與設定存在你自己的手機（iOS：iCloud；Android：本機＋Google 備份）。
 - 伺服器只保留發提醒所需的最小副本（隨機裝置編號與課表）；**不上傳位置**，距離在手機上計算；無帳號、無廣告、無追蹤。
-- 隱私權政策：[iOS](https://ntu-bike-notify.nannancat.tw/privacy) · [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
-- 支援：[iOS](https://ntu-bike-notify.nannancat.tw/support) · [Android](https://ntu-bike-notify.nannancat.tw/support/android)
+- 隱私權政策：[iOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
+- 支援：[iOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntu-bike-notify.nannancat.tw/support/android)
 
 ## 資料來源與聲明
 

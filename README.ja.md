@@ -14,6 +14,7 @@
 |---|---|
 | **iOS**（iOS 18.6 以上） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
 | **Android**（Android 14 以上） | [APK をダウンロード](../../releases/latest)（下のインストール手順を参照） |
+| **Web 版**（インストール不要） | [リアルタイム地図](https://ntubikenotify.nannancat.tw/map/) · [公式サイト](https://ntubikenotify.nannancat.tw/) |
 
 > Android 版は Google Play でクローズドテスト中です。公開までの間、APK を直接インストールできます。
 
@@ -27,6 +28,7 @@
 - 繁体字中国語・英語・日本語・韓国語に対応
 - 対象ステーション：台大の名前が付くステーションと、その周囲 200 m 以内のステーション（公館駅の出口を含む）。手動更新に対応し、アプリに戻ると自動更新
 - 地図：iOS は Apple マップまたは内蔵のオープンソース地図（OpenStreetMap、閲覧範囲を外部に送信しません）を選べます。Android は内蔵の OpenStreetMap 地図を使用
+- Web 版リアルタイム地図：インストール不要で、パソコンから台大キャンパス（周辺 200 m を含む）のステーションの台数と空きを確認
 - 1.2 の新機能：Siri／ショートカット（「今どこに自転車がある？」「次の授業は？」。繁体字中国語の Siri は iOS 27.3 以上が必要）、ホーム画面・ロック画面のウィジェット、Apple Watch、iMessage でステーションの台数カードを送信、iPad と横向き表示。Android はタブレット表示、ホーム画面ウィジェット、ランチャーのショートカット、ステーション共有
 
 ## スクリーンショット
@@ -71,7 +73,7 @@
 - **必要な権限**：通知（必須・リマインダー用）／位置情報（任意・距離は端末内で計算し、送信しません）／写真（任意・時間割の取り込み時に自分で選んだ画像のみ、端末内で認識）
 - **取り込み**：CSV、ICS、週間時間割のスクリーンショット、手入力
 - **1.2 のその他の機能**：Siri／ショートカットと App Intents、ホーム画面・ロック画面のウィジェット、Apple Watch アプリ（時間割は iPhone から送信）、iMessage 拡張（ステーションを選んで台数カードを友だちに送信）、iPad 対応
-- **プライバシー**：[プライバシーポリシー](https://ntu-bike-notify.nannancat.tw/privacy) ・ [サポート](https://ntu-bike-notify.nannancat.tw/support)。App Store のプライバシー表示では「デバイス ID」と「時間割のコピー」を申告しており、用途はアプリの機能のみで、トラッキングは行いません
+- **プライバシー**：[プライバシーポリシー](https://ntubikenotify.nannancat.tw/privacy/) ・ [サポート](https://ntubikenotify.nannancat.tw/support/)。App Store のプライバシー表示では「デバイス ID」と「時間割のコピー」を申告しており、用途はアプリの機能のみで、トラッキングは行いません
 
 ## Android のインストール
 
@@ -92,8 +94,8 @@ apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 
 - 時間割と設定はあなたの端末内に保存されます（iOS：iCloud、Android：端末内＋Google バックアップ）。
 - サーバーが保持するのは、通知の送信に必要な最小限のコピー（ランダムな端末 ID と時間割）のみです。**位置情報は送信しません**。距離は端末内で計算します。アカウント登録・広告・トラッキングはありません。
-- プライバシーポリシー：[iOS](https://ntu-bike-notify.nannancat.tw/privacy) ・ [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
-- サポート：[iOS](https://ntu-bike-notify.nannancat.tw/support) ・ [Android](https://ntu-bike-notify.nannancat.tw/support/android)
+- プライバシーポリシー：[iOS](https://ntubikenotify.nannancat.tw/privacy/) ・ [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
+- サポート：[iOS](https://ntubikenotify.nannancat.tw/support/) ・ [Android](https://ntu-bike-notify.nannancat.tw/support/android)
 
 ## データ出典と注意事項
 

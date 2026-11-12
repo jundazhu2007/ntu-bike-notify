@@ -14,6 +14,7 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 |---|---|
 | **iOS** (iOS 18.6+) | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
 | **Android** (Android 14+) | [Download APK](../../releases/latest) (see install steps below) |
+| **Web** (no install) | [Live map](https://ntubikenotify.nannancat.tw/map/) · [Website](https://ntubikenotify.nannancat.tw/) |
 
 > The Android version is in closed testing on Google Play. Until it is published, you can install the APK directly.
 
@@ -27,6 +28,7 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 - Traditional Chinese, English, Japanese, Korean
 - Station coverage: NTU-named stations plus any station within 200 m (including Gongguan MRT exits); manual refresh, and auto-refresh when you return to the app
 - Maps: iOS offers Apple Maps or a built-in open-source map (OpenStreetMap, no browsing area sent out); Android uses the built-in OpenStreetMap map
+- Web live map: no install needed, check bikes and free docks at NTU campus stations (plus those within 200 m) from a computer
 - New in 1.2: Siri / Shortcuts (ask "where are bikes now" or "next class"; Siri in Traditional Chinese needs iOS 27.3 or later), home-screen and Lock Screen widgets, Apple Watch, iMessage station cards, iPad and landscape layouts; on Android, tablet layouts, a home-screen widget, launcher shortcuts and station sharing
 
 ## Screenshots
@@ -71,7 +73,7 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 - **Permissions**: Notifications (required, for reminders); Location (optional, distances are computed on your phone and never uploaded); Photos (optional, only the screenshot you pick manually when importing a schedule, recognized on-device)
 - **Import**: CSV, ICS, weekly-schedule screenshot, or manual entry
 - **Other 1.2 features**: Siri / Shortcuts and App Intents, home-screen and Lock Screen widgets, Apple Watch app (schedule is sent from the iPhone), iMessage extension (pick a station and send a bike-count card to a friend), iPad layouts
-- **Privacy**: [Privacy policy](https://ntu-bike-notify.nannancat.tw/privacy) · [Support](https://ntu-bike-notify.nannancat.tw/support). App Store privacy labels declare "Device ID" and "Schedule copy", used only for app functionality, no tracking
+- **Privacy**: [Privacy policy](https://ntubikenotify.nannancat.tw/privacy/) · [Support](https://ntubikenotify.nannancat.tw/support/). App Store privacy labels declare "Device ID" and "Schedule copy", used only for app functionality, no tracking
 
 ## Android installation
 
@@ -92,8 +94,8 @@ apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 
 - Your schedule and settings stay on your phone (iOS: iCloud; Android: local storage plus Google backup).
 - The server keeps only the minimum copy needed to send reminders (a random device ID and your schedule). **Location is never uploaded**; distances are computed on your phone. No accounts, ads or tracking.
-- Privacy policy: [iOS](https://ntu-bike-notify.nannancat.tw/privacy) · [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
-- Support: [iOS](https://ntu-bike-notify.nannancat.tw/support) · [Android](https://ntu-bike-notify.nannancat.tw/support/android)
+- Privacy policy: [iOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
+- Support: [iOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntu-bike-notify.nannancat.tw/support/android)
 
 ## Data sources and notices
 
