@@ -16,8 +16,8 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 
 | Platform | Link |
 |---|---|
-| **iOS** (iOS 18.6+) | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
-| **Android** (Android 14+) | [Download APK](../../releases/latest) (see install steps below) |
+| **iOS / iPadOS** (iPhone and iPad, 18.6+) | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
+| **Android** (phones and tablets, Android 14+) | [Download APK](../../releases/latest) (see install steps below) |
 | **Web** (no install) | [Live map](https://ntubikenotify.nannancat.tw/map/) · [Website](https://ntubikenotify.nannancat.tw/) |
 
 > The Android version is in closed testing on Google Play. Until it is published, you can install the APK directly.
@@ -70,7 +70,7 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 ## iOS details
 
 - **Download**: [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) (free)
-- **Requirements**: iOS 18.6 or later (iPhone)
+- **Requirements**: iOS / iPadOS 18.6 or later (iPhone and iPad)
 - **Languages**: Traditional Chinese, English, Japanese, Korean (switch in the app under Settings → Language, or in system settings)
 - **Dynamic Island / Lock Screen**: a Live Activity shows the countdown and available bikes during the reminder window; it falls back to a regular notification if disabled or unsupported
 - **Data sync**: your schedule, reminder time and building corrections are stored on the device and synced to **your own private iCloud database**, so they restore on a new phone; the developer cannot read them

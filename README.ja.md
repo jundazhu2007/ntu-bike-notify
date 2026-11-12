@@ -16,8 +16,8 @@
 
 | プラットフォーム | リンク |
 |---|---|
-| **iOS**（iOS 18.6 以上） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
-| **Android**（Android 14 以上） | [APK をダウンロード](../../releases/latest)（下のインストール手順を参照） |
+| **iOS / iPadOS**（iPhone・iPad、18.6 以上） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
+| **Android**（スマートフォン・タブレット、Android 14 以上） | [APK をダウンロード](../../releases/latest)（下のインストール手順を参照） |
 | **Web 版**（インストール不要） | [リアルタイム地図](https://ntubikenotify.nannancat.tw/map/) · [公式サイト](https://ntubikenotify.nannancat.tw/) |
 
 > Android 版は Google Play でクローズドテスト中です。公開までの間、APK を直接インストールできます。
@@ -70,7 +70,7 @@
 ## iOS 版の詳細
 
 - **ダウンロード**：[App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286)（無料）
-- **動作環境**：iOS 18.6 以上（iPhone）
+- **動作環境**：iOS／iPadOS 18.6 以上（iPhone、iPad）
 - **言語**：繁体字中国語、英語、日本語、韓国語（アプリ内の「設定 → 言語」またはシステム設定で切り替え）
 - **ダイナミックアイランド／ロック画面**：通知の時間帯に Live Activity でカウントダウンと貸出可能台数を表示。無効または非対応の場合は通常の通知に切り替わります
 - **データ同期**：時間割・通知時間・建物位置の補正は端末に保存され、**あなた自身の iCloud プライベートデータベース**に同期されます。機種変更時に復元でき、開発者は内容を読めません

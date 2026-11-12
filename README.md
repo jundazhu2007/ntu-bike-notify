@@ -16,8 +16,8 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 
 | 平台 | 連結 |
 |---|---|
-| **iOS**（iOS 18.6+） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
-| **Android**（Android 14+） | [下載 APK](../../releases/latest)（見下方安裝說明） |
+| **iOS / iPadOS**（iPhone、iPad，18.6 以上） | [App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286) |
+| **Android**（手機與平板，Android 14+） | [下載 APK](../../releases/latest)（見下方安裝說明） |
 | **網頁版**（免安裝） | [即時地圖](https://ntubikenotify.nannancat.tw/map/) · [官網](https://ntubikenotify.nannancat.tw/) |
 
 > Android 版正在 Google Play 封閉測試中，上架前先提供 APK 直接安裝。
@@ -70,7 +70,7 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 ## iOS 版詳細資訊
 
 - **下載**：[App Store](https://apps.apple.com/us/app/ntu-bike-notify/id6831039286)（免費）
-- **系統需求**：iOS 18.6 以上（iPhone）
+- **系統需求**：iOS／iPadOS 18.6 以上（iPhone、iPad）
 - **語言**：繁體中文、English、日本語、한국어（可在 App 內「設定 → 語言」或系統設定切換）
 - **動態島／鎖定畫面**：下課前提醒期間顯示 Live Activity（倒數與可借車數）；關閉或不支援時自動降級為一般推播
 - **資料同步**：課表、提醒分鐘數、大樓位置校正存在 App 本機，並同步到**你自己的 iCloud 私人資料庫**，換手機可還原；開發者讀不到
