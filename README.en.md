@@ -2,6 +2,10 @@
 
 <p align="center"><a href="README.md">繁體中文</a> · <b>English</b> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a></p>
 
+<h3 align="center">🌐 <a href="https://ntubikenotify.nannancat.tw/">Official website｜ntubikenotify.nannancat.tw</a></h3>
+
+<p align="center"><a href="https://ntubikenotify.nannancat.tw/">Official website</a> · <a href="https://apps.apple.com/us/app/ntu-bike-notify/id6831039286">App Store</a> · <a href="../../releases/latest">Download APK</a> · <a href="https://ntubikenotify.nannancat.tw/map/">Web map</a></p>
+
 # NTU Bike Notify
 
 A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Taipei).

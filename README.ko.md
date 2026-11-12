@@ -2,6 +2,10 @@
 
 <p align="center"><a href="README.md">繁體中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <b>한국어</b></p>
 
+<h3 align="center">🌐 <a href="https://ntubikenotify.nannancat.tw/">공식 사이트｜ntubikenotify.nannancat.tw</a></h3>
+
+<p align="center"><a href="https://ntubikenotify.nannancat.tw/">공식 사이트</a> · <a href="https://apps.apple.com/us/app/ntu-bike-notify/id6831039286">App Store</a> · <a href="../../releases/latest">APK 다운로드</a> · <a href="https://ntubikenotify.nannancat.tw/map/">웹 지도</a></p>
+
 # NTU Bike Notify
 
 수업 시간표에 맞춰 알려 주는 국립타이완대학(NTU) 캠퍼스 공공자전거 알림 앱 (타이베이).

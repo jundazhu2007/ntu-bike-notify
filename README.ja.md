@@ -2,6 +2,10 @@
 
 <p align="center"><a href="README.md">繁體中文</a> · <a href="README.en.md">English</a> · <b>日本語</b> · <a href="README.ko.md">한국어</a></p>
 
+<h3 align="center">🌐 <a href="https://ntubikenotify.nannancat.tw/">公式サイト｜ntubikenotify.nannancat.tw</a></h3>
+
+<p align="center"><a href="https://ntubikenotify.nannancat.tw/">公式サイト</a> · <a href="https://apps.apple.com/us/app/ntu-bike-notify/id6831039286">App Store</a> · <a href="../../releases/latest">APK をダウンロード</a> · <a href="https://ntubikenotify.nannancat.tw/map/">Web 地図</a></p>
+
 # NTU Bike Notify
 
 時間割に合わせて台大キャンパスのシェアサイクルを通知するアプリ（台北）。
