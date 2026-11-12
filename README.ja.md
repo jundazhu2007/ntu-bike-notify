@@ -31,39 +31,37 @@
 
 ## スクリーンショット
 
-**iPhone**
+<table>
+<tr><td align="center"><b>iPhone</b></td><td align="center"><b>Android</b></td></tr>
+<tr>
+<td>
+<img src="screenshots/ios/01-schedule.png" width="100">
+<img src="screenshots/ios/02-map.png" width="100">
+<img src="screenshots/ios/03-osm-map.png" width="100">
+<img src="screenshots/ios/04-stations.png" width="100">
+</td>
+<td>
+<img src="screenshots/android-en/01-schedule.png" width="100">
+<img src="screenshots/android-en/02-grid.png" width="100">
+<img src="screenshots/android-en/03-map.png" width="100">
+<img src="screenshots/android-en/04-stations.png" width="100">
+</td>
+</tr>
+</table>
+
+<details>
+<summary>iPad と Android タブレット（横向き）</summary>
 
 <p>
-<img src="screenshots/ios/01-schedule.png" width="190">
-<img src="screenshots/ios/02-map.png" width="190">
-<img src="screenshots/ios/03-osm-map.png" width="190">
-<img src="screenshots/ios/04-stations.png" width="190">
+<img src="screenshots/ipad/01-schedule.png" width="400">
+<img src="screenshots/ipad/03-osm-map.png" width="400">
+<img src="screenshots/android-tablet-en/04-stations.png" width="400">
+<img src="screenshots/android-tablet-en/03-map.png" width="400">
 </p>
 
-**iPad（横向き）**
+</details>
 
-<p>
-<img src="screenshots/ipad/01-schedule.png" width="380">
-<img src="screenshots/ipad/03-osm-map.png" width="380">
-</p>
-
-**Android スマートフォン**
-
-<p>
-<img src="screenshots/android-en/01-schedule.png" width="190">
-<img src="screenshots/android-en/02-grid.png" width="190">
-<img src="screenshots/android-en/03-map.png" width="190">
-<img src="screenshots/android-en/04-stations.png" width="190">
-</p>
-
-**Android タブレット（横向き）**
-
-<p>
-<img src="screenshots/android-tablet-en/04-stations.png" width="380">
-<img src="screenshots/android-tablet-en/03-map.png" width="380">
-</p>
-
-（スクリーンショットは架空の時間割を使用しています。スマートフォンは縦向きのみ、iPad と Android タブレットは横向きにも対応します。iOS は繁体字中国語の UI、Android は英語の UI です。）
+（架空の時間割を使用。スマートフォンは縦向きのみ、iPad と Android タブレットは横向きにも対応。iOS は繁体字中国語、Android は英語の UI です。）
 
 ## iOS 版の詳細
 

@@ -31,39 +31,37 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 
 ## Screenshots
 
-**iPhone**
+<table>
+<tr><td align="center"><b>iPhone</b></td><td align="center"><b>Android</b></td></tr>
+<tr>
+<td>
+<img src="screenshots/ios/01-schedule.png" width="100">
+<img src="screenshots/ios/02-map.png" width="100">
+<img src="screenshots/ios/03-osm-map.png" width="100">
+<img src="screenshots/ios/04-stations.png" width="100">
+</td>
+<td>
+<img src="screenshots/android-en/01-schedule.png" width="100">
+<img src="screenshots/android-en/02-grid.png" width="100">
+<img src="screenshots/android-en/03-map.png" width="100">
+<img src="screenshots/android-en/04-stations.png" width="100">
+</td>
+</tr>
+</table>
+
+<details>
+<summary>iPad and Android tablet (landscape)</summary>
 
 <p>
-<img src="screenshots/ios/01-schedule.png" width="190">
-<img src="screenshots/ios/02-map.png" width="190">
-<img src="screenshots/ios/03-osm-map.png" width="190">
-<img src="screenshots/ios/04-stations.png" width="190">
+<img src="screenshots/ipad/01-schedule.png" width="400">
+<img src="screenshots/ipad/03-osm-map.png" width="400">
+<img src="screenshots/android-tablet-en/04-stations.png" width="400">
+<img src="screenshots/android-tablet-en/03-map.png" width="400">
 </p>
 
-**iPad (landscape)**
+</details>
 
-<p>
-<img src="screenshots/ipad/01-schedule.png" width="380">
-<img src="screenshots/ipad/03-osm-map.png" width="380">
-</p>
-
-**Android phone**
-
-<p>
-<img src="screenshots/android-en/01-schedule.png" width="190">
-<img src="screenshots/android-en/02-grid.png" width="190">
-<img src="screenshots/android-en/03-map.png" width="190">
-<img src="screenshots/android-en/04-stations.png" width="190">
-</p>
-
-**Android tablet (landscape)**
-
-<p>
-<img src="screenshots/android-tablet-en/04-stations.png" width="380">
-<img src="screenshots/android-tablet-en/03-map.png" width="380">
-</p>
-
-(Screenshots use a fictional schedule. Phones support portrait only; iPad and Android tablets support landscape. The iOS screenshots show the Traditional Chinese UI.)
+(Fictional schedule. Phones are portrait only; iPad and Android tablets also support landscape. iOS screenshots show the Traditional Chinese UI.)
 
 ## iOS details
 

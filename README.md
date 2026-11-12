@@ -31,37 +31,35 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 
 ## 截圖
 
-**iPhone**
+<table>
+<tr><td align="center"><b>iPhone</b></td><td align="center"><b>Android</b></td></tr>
+<tr>
+<td>
+<img src="screenshots/ios/01-schedule.png" width="100">
+<img src="screenshots/ios/02-map.png" width="100">
+<img src="screenshots/ios/03-osm-map.png" width="100">
+<img src="screenshots/ios/04-stations.png" width="100">
+</td>
+<td>
+<img src="screenshots/android/01-schedule.png" width="100">
+<img src="screenshots/android/02-grid.png" width="100">
+<img src="screenshots/android/03-map.png" width="100">
+<img src="screenshots/android/04-stations.png" width="100">
+</td>
+</tr>
+</table>
+
+<details>
+<summary>iPad 與 Android 平板（橫向）</summary>
 
 <p>
-<img src="screenshots/ios/01-schedule.png" width="190">
-<img src="screenshots/ios/02-map.png" width="190">
-<img src="screenshots/ios/03-osm-map.png" width="190">
-<img src="screenshots/ios/04-stations.png" width="190">
+<img src="screenshots/ipad/01-schedule.png" width="400">
+<img src="screenshots/ipad/03-osm-map.png" width="400">
+<img src="screenshots/android-tablet/04-stations.png" width="400">
+<img src="screenshots/android-tablet/03-map.png" width="400">
 </p>
 
-**iPad（橫向）**
-
-<p>
-<img src="screenshots/ipad/01-schedule.png" width="380">
-<img src="screenshots/ipad/03-osm-map.png" width="380">
-</p>
-
-**Android 手機**
-
-<p>
-<img src="screenshots/android/01-schedule.png" width="190">
-<img src="screenshots/android/02-grid.png" width="190">
-<img src="screenshots/android/03-map.png" width="190">
-<img src="screenshots/android/04-stations.png" width="190">
-</p>
-
-**Android 平板（橫向）**
-
-<p>
-<img src="screenshots/android-tablet/04-stations.png" width="380">
-<img src="screenshots/android-tablet/03-map.png" width="380">
-</p>
+</details>
 
 （截圖使用虛構課表。手機版目前只支援直向；iPad 與 Android 平板支援橫向。）
 

@@ -31,39 +31,37 @@
 
 ## 스크린샷
 
-**iPhone**
+<table>
+<tr><td align="center"><b>iPhone</b></td><td align="center"><b>Android</b></td></tr>
+<tr>
+<td>
+<img src="screenshots/ios/01-schedule.png" width="100">
+<img src="screenshots/ios/02-map.png" width="100">
+<img src="screenshots/ios/03-osm-map.png" width="100">
+<img src="screenshots/ios/04-stations.png" width="100">
+</td>
+<td>
+<img src="screenshots/android-en/01-schedule.png" width="100">
+<img src="screenshots/android-en/02-grid.png" width="100">
+<img src="screenshots/android-en/03-map.png" width="100">
+<img src="screenshots/android-en/04-stations.png" width="100">
+</td>
+</tr>
+</table>
+
+<details>
+<summary>iPad 및 Android 태블릿 (가로)</summary>
 
 <p>
-<img src="screenshots/ios/01-schedule.png" width="190">
-<img src="screenshots/ios/02-map.png" width="190">
-<img src="screenshots/ios/03-osm-map.png" width="190">
-<img src="screenshots/ios/04-stations.png" width="190">
+<img src="screenshots/ipad/01-schedule.png" width="400">
+<img src="screenshots/ipad/03-osm-map.png" width="400">
+<img src="screenshots/android-tablet-en/04-stations.png" width="400">
+<img src="screenshots/android-tablet-en/03-map.png" width="400">
 </p>
 
-**iPad (가로)**
+</details>
 
-<p>
-<img src="screenshots/ipad/01-schedule.png" width="380">
-<img src="screenshots/ipad/03-osm-map.png" width="380">
-</p>
-
-**Android 휴대폰**
-
-<p>
-<img src="screenshots/android-en/01-schedule.png" width="190">
-<img src="screenshots/android-en/02-grid.png" width="190">
-<img src="screenshots/android-en/03-map.png" width="190">
-<img src="screenshots/android-en/04-stations.png" width="190">
-</p>
-
-**Android 태블릿 (가로)**
-
-<p>
-<img src="screenshots/android-tablet-en/04-stations.png" width="380">
-<img src="screenshots/android-tablet-en/03-map.png" width="380">
-</p>
-
-(스크린샷은 가상의 시간표를 사용했습니다. 휴대폰은 세로 방향만, iPad와 Android 태블릿은 가로 방향도 지원합니다. iOS는 번체 중국어 UI, Android는 영어 UI입니다.)
+(가상의 시간표 사용. 휴대폰은 세로만, iPad와 Android 태블릿은 가로도 지원. iOS는 번체 중국어, Android는 영어 UI입니다.)
 
 ## iOS 상세 정보
 
