@@ -34,6 +34,8 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 - Maps: iOS offers Apple Maps or a built-in open-source map (OpenStreetMap, no browsing area sent out); Android uses the built-in OpenStreetMap map
 - Web live map: no install needed, check bikes and free docks at NTU campus stations (plus those within 200 m) from a computer
 - New in 1.2: Siri / Shortcuts (ask "where are bikes now" or "next class"; Siri in Traditional Chinese needs iOS 27.3 or later), home-screen and Lock Screen widgets, Apple Watch, iMessage station cards, iPad and landscape layouts; on Android, tablet layouts, a home-screen widget, launcher shortcuts and station sharing
+- Android 1.3: dark mode (Settings → Appearance), station badges no longer clipped at large text sizes, About links to the website / developer / GitHub / X, privacy and support moved to the website's Android pages
+- iOS / iPadOS 1.3 (in App Store review, updates automatically once approved): iPad layout fixes, Dynamic Type and accessibility improvements, Reduce Motion support, Siri requests are no longer logged, About icon links
 
 ## Screenshots
 
@@ -81,15 +83,15 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 
 ## Android installation
 
-1. Download `NTU-Bike-Notify-1.2.apk` from [Releases](../../releases/latest).
+1. Download `NTU-Bike-Notify-1.3.apk` from [Releases](../../releases/latest).
 2. Open the file on your phone; if prompted, allow installing apps from this source (browser / Files).
 3. Open the app and allow notifications.
 
 **Verify the download** (optional): the APK SHA-256 is in the release notes; the signing certificate SHA-256 is `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`.
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.2.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
+shasum -a 256 NTU-Bike-Notify-1.3.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.3.apk
 ```
 
 > This APK uses a different signing key from the future Google Play version; uninstall it before installing the Play version.
@@ -98,8 +100,8 @@ apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 
 - Your schedule and settings stay on your phone (iOS: iCloud; Android: local storage plus Google backup).
 - The server keeps only the minimum copy needed to send reminders (a random device ID and your schedule). **Location is never uploaded**; distances are computed on your phone. No accounts, ads or tracking.
-- Privacy policy: [iOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
-- Support: [iOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntu-bike-notify.nannancat.tw/support/android)
+- Privacy policy: [iOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
+- Support: [iOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntubikenotify.nannancat.tw/support/android/)
 
 ## Data sources and notices
 

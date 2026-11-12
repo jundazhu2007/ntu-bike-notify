@@ -34,6 +34,8 @@
 - 地図：iOS は Apple マップまたは内蔵のオープンソース地図（OpenStreetMap、閲覧範囲を外部に送信しません）を選べます。Android は内蔵の OpenStreetMap 地図を使用
 - Web 版リアルタイム地図：インストール不要で、パソコンから台大キャンパス（周辺 200 m を含む）のステーションの台数と空きを確認
 - 1.2 の新機能：Siri／ショートカット（「今どこに自転車がある？」「次の授業は？」。繁体字中国語の Siri は iOS 27.3 以上が必要）、ホーム画面・ロック画面のウィジェット、Apple Watch、iMessage でステーションの台数カードを送信、iPad と横向き表示。Android はタブレット表示、ホーム画面ウィジェット、ランチャーのショートカット、ステーション共有
+- Android 1.3：ダークモード（設定 → 外観）、大きい文字サイズでもステーションのバッジが切れないよう改善、「アプリについて」に公式サイト／開発者／GitHub／X へのリンクを追加、プライバシーとサポートを公式サイトの Android ページに移行
+- iOS／iPadOS 1.3（App Store 審査中。承認後に自動更新）：iPad のレイアウト修正、ダイナミックタイプとアクセシビリティの改善、視差効果・動きを減らす設定に対応、Siri のリクエストを記録しない、「アプリについて」にリンクアイコンを追加
 
 ## スクリーンショット
 
@@ -81,15 +83,15 @@
 
 ## Android のインストール
 
-1. [Releases](../../releases/latest) から `NTU-Bike-Notify-1.2.apk` をダウンロードします。
+1. [Releases](../../releases/latest) から `NTU-Bike-Notify-1.3.apk` をダウンロードします。
 2. スマートフォンでファイルを開き、確認が出たら（ブラウザ／ファイル）からのインストールを許可します。
 3. アプリを開き、通知を許可します。
 
 **ダウンロードの確認**（任意）：APK の SHA-256 は Release の説明に記載しています。署名証明書の SHA-256 は次のとおりです `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`.
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.2.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
+shasum -a 256 NTU-Bike-Notify-1.3.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.3.apk
 ```
 
 > この APK は、今後公開される Google Play 版とは署名鍵が異なります。Play 版を入れる前にこの版をアンインストールしてください。
@@ -98,8 +100,8 @@ apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 
 - 時間割と設定はあなたの端末内に保存されます（iOS：iCloud、Android：端末内＋Google バックアップ）。
 - サーバーが保持するのは、通知の送信に必要な最小限のコピー（ランダムな端末 ID と時間割）のみです。**位置情報は送信しません**。距離は端末内で計算します。アカウント登録・広告・トラッキングはありません。
-- プライバシーポリシー：[iOS](https://ntubikenotify.nannancat.tw/privacy/) ・ [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
-- サポート：[iOS](https://ntubikenotify.nannancat.tw/support/) ・ [Android](https://ntu-bike-notify.nannancat.tw/support/android)
+- プライバシーポリシー：[iOS](https://ntubikenotify.nannancat.tw/privacy/) ・ [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
+- サポート：[iOS](https://ntubikenotify.nannancat.tw/support/) ・ [Android](https://ntubikenotify.nannancat.tw/support/android/)
 
 ## データ出典と注意事項
 

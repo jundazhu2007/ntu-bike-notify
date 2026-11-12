@@ -34,6 +34,8 @@
 - 지도: iOS는 Apple 지도 또는 내장 오픈소스 지도(OpenStreetMap, 열람 범위를 외부로 보내지 않음) 선택 가능. Android는 내장 OpenStreetMap 지도 사용
 - 웹 버전 실시간 지도: 설치 없이 컴퓨터에서 대만대 캠퍼스(주변 200 m 포함) 정류소의 대여 가능 대수와 빈 거치대 확인
 - 1.2 새 기능: Siri/단축어("지금 어디에 자전거가 있어?", "다음 수업은?"; 번체 중국어 Siri는 iOS 27.3 이상 필요), 홈 화면·잠금 화면 위젯, Apple Watch, iMessage로 대여소 현황 카드 보내기, iPad 및 가로 화면. Android는 태블릿 화면, 홈 화면 위젯, 런처 바로가기, 대여소 공유
+- Android 1.3: 다크 모드(설정 → 외관), 큰 글자 크기에서도 정류소 배지가 잘리지 않도록 개선, '앱 정보'에 공식 사이트·개발자·GitHub·X 링크 추가, 개인정보 처리방침과 지원 페이지를 공식 사이트의 Android 페이지로 이전
+- iOS/iPadOS 1.3 (App Store 심사 중, 승인되면 자동 업데이트): iPad 레이아웃 수정, 동적 글꼴 크기와 손쉬운 사용 개선, 동작 줄이기 지원, Siri 요청을 기록하지 않음, '정보'에 링크 아이콘 추가
 
 ## 스크린샷
 
@@ -81,15 +83,15 @@
 
 ## Android 설치
 
-1. [Releases](../../releases/latest)에서 `NTU-Bike-Notify-1.2.apk`를 다운로드합니다.
+1. [Releases](../../releases/latest)에서 `NTU-Bike-Notify-1.3.apk`를 다운로드합니다.
 2. 휴대폰에서 파일을 열고, 안내가 나오면 해당 출처(브라우저 / 파일)의 앱 설치를 허용합니다.
 3. 앱을 열고 알림을 허용합니다.
 
 **다운로드 확인** (선택): APK의 SHA-256은 릴리스 설명에 있습니다. 서명 인증서 SHA-256은 다음과 같습니다 `7d5ef38b3c7fef6b13525b83d2206db567f7ad5ee00c18ab14d21e40b45a8d64`.
 
 ```
-shasum -a 256 NTU-Bike-Notify-1.2.apk
-apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
+shasum -a 256 NTU-Bike-Notify-1.3.apk
+apksigner verify --print-certs NTU-Bike-Notify-1.3.apk
 ```
 
 > 이 APK는 이후 출시될 Google Play 버전과 서명 키가 다릅니다. Play 버전을 설치하기 전에 이 버전을 먼저 삭제하세요.
@@ -98,8 +100,8 @@ apksigner verify --print-certs NTU-Bike-Notify-1.2.apk
 
 - 시간표와 설정은 본인의 휴대폰에 저장됩니다 (iOS: iCloud, Android: 로컬 저장소 + Google 백업).
 - 서버는 알림 발송에 필요한 최소한의 사본(무작위 기기 ID와 시간표)만 보관합니다. **위치는 전송하지 않으며** 거리는 휴대폰에서 계산합니다. 계정, 광고, 추적이 없습니다.
-- 개인정보 처리방침: [iOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntu-bike-notify.nannancat.tw/privacy/android)
-- 지원: [iOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntu-bike-notify.nannancat.tw/support/android)
+- 개인정보 처리방침: [iOS](https://ntubikenotify.nannancat.tw/privacy/) · [Android](https://ntubikenotify.nannancat.tw/privacy/android/)
+- 지원: [iOS](https://ntubikenotify.nannancat.tw/support/) · [Android](https://ntubikenotify.nannancat.tw/support/android/)
 
 ## 데이터 출처 및 고지
 
