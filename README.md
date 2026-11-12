@@ -35,7 +35,7 @@ A class-schedule-aware reminder for bike-sharing stations on the NTU campus (Tai
 - 網頁版即時地圖：電腦上不用安裝，直接查看臺大校園（含周邊 200 公尺）各站的可借車數與空位
 - 1.2 新增：Siri／捷徑（問「現在哪裡有車」「下一堂課」；繁體中文 Siri 需 iOS 27.3 以上）、桌面與鎖定畫面小工具、Apple Watch、iMessage 傳送站點車數、iPad 與橫向畫面；Android 平板版面、桌面小工具、桌面長按捷徑、站點分享
 - Android 1.3 新增：深色模式（設定 → 外觀）、大字體時站點徽章不再被切掉、「關於」加上官網／開發者／GitHub／X 連結、隱私與支援改到官網的 Android 頁
-- iOS／iPadOS 1.3（App Store 審查中，通過後自動更新）：iPad 版面修正、大字體與輔助使用改善、支援減少動態效果、Siri 不再記錄請求、「關於」加上連結圖示
+- iOS／iPadOS 1.3 新增：iPad 版面修正、大字體與輔助使用改善、支援減少動態效果、Siri 不再記錄請求、「關於」加上連結圖示
 
 ## 截圖
 

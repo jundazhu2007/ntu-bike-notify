@@ -35,7 +35,7 @@ A reminder app for bike-sharing stations on the National Taiwan University (NTU)
 - Web live map: no install needed, check bikes and free docks at NTU campus stations (plus those within 200 m) from a computer
 - New in 1.2: Siri / Shortcuts (ask "where are bikes now" or "next class"; Siri in Traditional Chinese needs iOS 27.3 or later), home-screen and Lock Screen widgets, Apple Watch, iMessage station cards, iPad and landscape layouts; on Android, tablet layouts, a home-screen widget, launcher shortcuts and station sharing
 - Android 1.3: dark mode (Settings → Appearance), station badges no longer clipped at large text sizes, About links to the website / developer / GitHub / X, privacy and support moved to the website's Android pages
-- iOS / iPadOS 1.3 (in App Store review, updates automatically once approved): iPad layout fixes, Dynamic Type and accessibility improvements, Reduce Motion support, Siri requests are no longer logged, About icon links
+- iOS / iPadOS 1.3: iPad layout fixes, Dynamic Type and accessibility improvements, Reduce Motion support, Siri requests are no longer logged, About icon links
 
 ## Screenshots
 
